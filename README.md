@@ -5,7 +5,6 @@
 * [Technologies](#technologies)
 * [Basic Commands](#basic-commands)
 * [Pre-Requirements](#pre-requirements)
-* [Setup](#setup)
 * [Installation](#installation)
 * [Docker Installation](#docker-installation)
 * [Mullvad Installation](#mullvad-installation)
@@ -38,25 +37,20 @@ These should be enough to where you can navigate the system and follow along wit
 
 These scripts require you to have installed Raspbian, or any other debian based distro on your machine.
 
-## Setup
-To run the scripts, install git and clone the repo.
+## Installation
+To install and run the scripts, first you must install git and clone the repo.
 
 ```
 $ sudo apt-get install git
 $ git clone https://github.com/LordZeuss/raspi-docker
 ```
-
-## Installation
-To run the scripts, run these commands that will make the scripts executable.
-
-First, navigate to the folder where the scripts are downloaded.
+Then, navigate to the folder where the scripts are downloaded.
 
 ```
-
 cd raspi-docker
 ```
 
-Now to make them executable
+Now to make the scripts executable (Able to run)
 
 ```
 $ chmod +x docker-install.sh
