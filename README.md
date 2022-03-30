@@ -3,6 +3,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Basic Commands](#basic-commands)
+* [Pre-Requirements](#pre-requirements)
 * [Setup](#setup)
 * [Installation](#installation)
 * [Docker Installation](#docker-installation)
@@ -16,7 +18,20 @@ This project is to create a script to help setup docker and Mullvad VPN on a Ras
 Project is created with:
 * Bash that I wrote myself. Code is probably ugly, it's my first real script.
 
+## Basic Commands
+Here are some commands for those who don't know how to navigate around the terminal.
+You'll need to know these commands in order to navigate the terminal and install these scripts.
+
+```
+$ ls -lists files and folders in your current directory. 
+$ cd -Stands for change directory. You would type cd then the name of the directory. Ex: cd Downloads
+$ cd.. -Goes to the previous directory.
+$ ./ -This executes files. Ex: ./install.sh 
+```
+These should be enough to where you can navigate the system and follow along with this guide. I included it for those who may need the extra help navigating.
+
 ## Pre-Requirements
+
 These scripts require you to have installed Raspbian, or any other debian based distro on your machine.
 
 ## Setup
@@ -29,6 +44,15 @@ $ git clone https://github.com/LordZeuss/raspi-docker
 
 ## Installation
 To run the scripts, run these commands that will make the scripts executable.
+
+First, navigate to the folder where the scripts are downloaded.
+
+```
+
+cd raspi-docker
+```
+
+Now to make them executable
 
 ```
 $ chmod +x docker-install.sh
