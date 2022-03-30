@@ -18,4 +18,6 @@ To run the scripts, install git and clone the repo.
 ```
 $ sudo apt-get install git
 $ git clone https://github.com/LordZeuss/raspi-docker
-'''
+```
+## Getting Started
+You'll need to make sure you have raspbian installed.
