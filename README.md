@@ -16,7 +16,7 @@ This project is scripts that aim to to help setup docker and Mullvad VPN on a Ra
 
 The goal of this project is to help users who just bought some hardware, and are looking to get started and have no knowledge of where to start.
 
-It took my longer than it should have when i first got started, so I wrote these scripts to help others get their feet off the ground.
+It took my longer than it should have when I first got started, so I wrote these scripts to help others get their feet off the ground.
 
 ## Technologies
 Project is created with:
