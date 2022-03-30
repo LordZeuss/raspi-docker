@@ -12,7 +12,7 @@
 * [Conclusion](#conclusion)
 
 ## General info
-This project is to create a script to help setup docker and Mullvad VPN on a Raspberry Pi, or Debian based distros.
+This project is scripts that aim to to help setup docker and Mullvad VPN on a Raspberry Pi, or Debian based distros.
 
 The goal of this project is to help users who just bought some hardware, and are looking to get started and have no knowledge of where to start.
 
