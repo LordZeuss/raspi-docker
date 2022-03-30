@@ -12,11 +12,15 @@
 * [Conclusion](#conclusion)
 
 ## General info
-This project is to create a script to help setup docker and Mullvad VPN on a Raspberry Pi.
+This project is to create a script to help setup docker and Mullvad VPN on a Raspberry Pi, or Debian based distros.
+
+The goal of this project is to help users who just bought some hardware, and are looking to get started and have no knowledge of where to start.
+
+It took my longer than it should have when i first got started, so I wrote these scripts to help others get their feet off the ground.
 
 ## Technologies
 Project is created with:
-* Bash that I wrote myself. Code is probably ugly, it's my first real script.
+* Bash that I wrote myself. Code is not the prettiest. It's my writing code and scripting. This is my first project.
 
 ## Basic Commands
 Here are some commands for those who don't know how to navigate around the terminal.
