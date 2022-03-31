@@ -1,5 +1,11 @@
 # Raspi-Docker
 
+## General Info
+This project is scripts that aim to to help setup docker and Mullvad VPN on a Raspberry Pi, or Debian based distros.
+
+The goal of this project is to help users who just bought some hardware, and are looking to get started and have no knowledge of where to start.
+
+It took my longer than it should have when I first got started, so I wrote these scripts to help others get their feet off the ground.
 
 ## Table of Contents
 * [General Info](#general-info)
@@ -10,12 +16,14 @@
 * [Mullvad Installation](#mullvad-installation)
 * [Conclusion](#conclusion)
 
-## General Info
-This project is scripts that aim to to help setup docker and Mullvad VPN on a Raspberry Pi, or Debian based distros.
+# Additional Containers
+If you want to install some containers to get started, I have a repo for that!
+The script in the repo below will let you select if you want to install Portainer, Sonarr, Radarr, Jackett and Qbittorrent into the docker-compose.yml file in the location that is setup in this script.
 
-The goal of this project is to help users who just bought some hardware, and are looking to get started and have no knowledge of where to start.
-
-It took my longer than it should have when I first got started, so I wrote these scripts to help others get their feet off the ground.
+Heres the link to that repo:
+```
+https://github.com/LordZeuss/arr-installer
+```
 
 ## Basic Commands
 Here are some commands for those who don't know how to navigate around the terminal.
@@ -43,7 +51,7 @@ $ git clone https://github.com/LordZeuss/raspi-docker
 Then, navigate to the folder where the scripts are downloaded.
 
 ```
-cd raspi-docker
+$ cd raspi-docker
 ```
 
 Allowing the scripts to run:
@@ -51,8 +59,8 @@ Allowing the scripts to run:
 Copy and paste the following commands into the terminal
 
 ```
-sed -i -e 's/\r$//' docker-install.sh
-sed -i -e 's/\r$//' mullvad.sh
+$ sed -i -e 's/\r$//' docker-install.sh
+$ sed -i -e 's/\r$//' mullvad.sh
 ```
 The purpose of the above commands is to fix the /bin/bash^m: bad interpreter: no such file or directory error
 
@@ -86,3 +94,21 @@ This is my first attempt at writing scripts and working with code, so there's pr
 I wrote these scripts because I couldn't find anything simple when I first started. 
 
 I hope these scripts help you get started!
+
+Don't forget to check out my other project with provides a script to install containers for docker!
+
+```
+https://github.com/LordZeuss/arr-installer
+```
+
+# Donations
+Feel free to use these scripts as much as you want, edit it as much as you need to, fork them into your own projects, have fun with it! That's the purpose for open source!
+
+You ABSOLUTELY do NOT need to donate. I'm just a university student trying to learn how to code and make programs. If you decide to donate and support me and this project, thank you! I appreciate your support!
+
+If you are feeling kind enough to donate to me here is my bitcoin address. 
+
+```
+bc1q4srmsq9mhkswerxw7vz68fpnvzs34wrutx9fdm
+```
+
