@@ -36,6 +36,7 @@ echo "Would you like to install Mullvad (Required)? (y/n)"
 read yesorno
 
 if [ "$yesorno" = y ]; then
+	yes | sudo apt-get install jq
 	config
 	echo "Setup Successful."
 elif [ "$yesorno" = n ]; then
