@@ -1,9 +1,8 @@
 # Raspi-Docker
 
 
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
+## Table of Contents
+* [General Info](#general-info)
 * [Basic Commands](#basic-commands)
 * [Pre-Requirements](#pre-requirements)
 * [Installation](#installation)
@@ -11,16 +10,12 @@
 * [Mullvad Installation](#mullvad-installation)
 * [Conclusion](#conclusion)
 
-## General info
+## General Info
 This project is scripts that aim to to help setup docker and Mullvad VPN on a Raspberry Pi, or Debian based distros.
 
 The goal of this project is to help users who just bought some hardware, and are looking to get started and have no knowledge of where to start.
 
 It took my longer than it should have when I first got started, so I wrote these scripts to help others get their feet off the ground.
-
-## Technologies
-Project is created with:
-* Bash that I wrote myself. Code is not the prettiest. It's my writing code and scripting. This is my first project.
 
 ## Basic Commands
 Here are some commands for those who don't know how to navigate around the terminal.
@@ -71,7 +66,6 @@ This should install docker, and if you are having permission issues, I have foun
 To run the troubleshoot script
 
 ```
-
 $ ./docker-troubleshoot-fix.sh
 ```
 
@@ -80,7 +74,6 @@ Mullvad is my go-to VPN to use. This script will install wireguard, and the offi
 To run the script:
 
 ```
-
 $ ./mullvad.sh
 ```
 
