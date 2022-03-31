@@ -75,3 +75,4 @@ else
 	exit 1
 fi
 
+echo "Installer Complete. Goodbye!"
