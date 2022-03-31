@@ -61,7 +61,6 @@ Now to make the scripts executeable
 ```
 $ chmod +x docker-install.sh
 $ chmod +x mullvad.sh
-$ chmod +x docker-troubleshoot-fix.sh
 ```
 
 ## Docker Installation
