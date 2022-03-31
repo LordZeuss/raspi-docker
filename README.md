@@ -15,6 +15,7 @@ It took my longer than it should have when I first got started, so I wrote these
 * [Docker Installation](#docker-installation)
 * [Mullvad Installation](#mullvad-installation)
 * [Conclusion](#conclusion)
+* [Donations](#donations)
 
 # Additional Containers
 If you want to install some containers to get started, I have a repo for that!
