@@ -14,7 +14,9 @@ config () { curl -LO https://mullvad.net/media/files/mullvad-wg.sh && chmod +x .
 
 #Install wireguard
 
-echo "Would you like to install Wireguard (Required)? (y/n)"
+echo "Would you like to install Wireguard (Required)? (y/n/e)"
+echo " "
+echo "y=yes | n=no | e=exit-installer"
 
 read yesorno
 
@@ -23,6 +25,9 @@ if [ "$yesorno" = y ]; then
 	echo "Installation Successful."
 elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
+elif [ "$yesorno" = e ]; then
+	echo "Goodbye!"
+	exit 1
 else
 	echo "Not a valid answer. Exiting..."
 fi
@@ -41,6 +46,9 @@ if [ "$yesorno" = y ]; then
 	echo "Setup Successful."
 elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
+elif [ "$yesorno" = e ]; then
+	echo "Goodbye!"
+	exit 1
 else
 	echo "Not a valid answer. Exiting..."
 fi
