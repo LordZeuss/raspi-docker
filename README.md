@@ -46,7 +46,17 @@ Then, navigate to the folder where the scripts are downloaded.
 cd raspi-docker
 ```
 
-Now to make the scripts executable (Able to run)
+Allowing the scripts to run:
+
+Copy and paste the following commands into the terminal
+
+```
+sed -i -e 's/\r$//' docker-install.sh
+sed -i -e 's/\r$//' mullvad.sh
+```
+The purpose of the above commands is to fix the /bin/bash^m: bad interpreter: no such file or directory error
+
+Now to make the scripts executeable
 
 ```
 $ chmod +x docker-install.sh
@@ -59,14 +69,6 @@ To install docker, run the docker-install.sh script.
 
 ```
 $ ./docker-install.sh
-```
-
-This should install docker, and if you are having permission issues, I have found that running the troubleshoot script fixes the issue.
-
-To run the troubleshoot script
-
-```
-$ ./docker-troubleshoot-fix.sh
 ```
 
 ## Mullvad Installation
