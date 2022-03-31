@@ -15,7 +15,7 @@ ___  ____ _  _ ____    _ _  _ ____ ___ ____ _    _    ____ ____
 
 noanswer () { echo "Skipping..." ; }
 wireguard () { yes | sudo apt-get update && sudo apt-get install curl jq openresolv wireguard; }
-config () { curl -LO https://mullvad.net/media/files/mullvad-wg.sh && chmod +x ./mullvad-wg.sh && ./mullvad-wg.sh; }
+config () { yes | curl -LO https://mullvad.net/media/files/mullvad-wg.sh && chmod +x ./mullvad-wg.sh && ./mullvad-wg.sh; }
 
 ######################################################################
 
