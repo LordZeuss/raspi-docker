@@ -16,7 +16,9 @@ update () { yes | sudo apt-get update && sudo apt-get upgrade; }
 #
 
 echo "Would you like to update the system (Recommended)? (y/n/e)"
-echo "y is to confirm, n is to skip, e is to exit the installer."
+echo " "
+echo "y=yes | n=no | e=exit-installer."
+echo " "
 
 read yesorno
 
@@ -27,6 +29,7 @@ elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
 else
 	echo "Not a valid answer. Exiting..."
+	exit 1
 fi
 
 
