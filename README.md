@@ -47,11 +47,13 @@ I have tested on the following systems, and confirmed that its functional:
 * Ubuntu
 * Debian
 * Raspian
+* Linux Mint
+* Pop!_OS
 
 I have plans on testing other operating systems for functionality. The scripts should work on Debian based distros just fine, but haven't been officially tested:
 * DietPi
-* Linux Mint
-* Pop!_OS
+
+If you have used this script on a OS that isn't listed above, please create an "issue" and list the name of the OS so I can add it to the list!
 
 ## Installation
 To install and run the scripts, first you must install git and clone the repo.
