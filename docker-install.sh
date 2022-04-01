@@ -14,8 +14,8 @@ ___  ____ _  _ ____    _ _  _ ____ ___ ____ _    _    ____ ____
 #Functions List
 
 noanswer () { echo "Skipping..." ; }
-update () { yes | sudo apt-get update && sudo apt-get upgrade; }
-
+update () { yes | sudo apt-get update; }
+upgrade () { yes | sudo apt-get upgrade; }
 ######################################################################
 
 #
@@ -31,6 +31,7 @@ read yesorno
 
 if [ "$yesorno" = y ]; then
 	update
+	upgrade
 	echo "Update Successful."
 elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
