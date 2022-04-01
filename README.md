@@ -48,7 +48,7 @@ I have tested on the following systems, and confirmed that its functional:
 * Debian
 * Raspian
 
-I have plans on testing other operating systems for functionality. Systems that it should work on, but haven't been officially tested:
+I have plans on testing other operating systems for functionality. The scripts should work on Debian based distros just fine, but haven't been officially tested:
 * DietPi
 * Linux Mint
 * Pop!_OS
