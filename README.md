@@ -31,10 +31,10 @@ Here are some commands for those who don't know how to navigate around the termi
 You'll need to know these commands in order to navigate the terminal and install these scripts.
 
 ```
-$ ls -lists files and folders in your current directory. 
-$ cd -Stands for change directory. You would type cd then the name of the directory. Ex: cd Downloads
-$ cd.. -Goes to the previous directory.
-$ ./ -This executes files. Ex: ./install.sh 
+ls -lists files and folders in your current directory. 
+cd -Stands for change directory. You would type cd then the name of the directory. Ex: cd Downloads
+cd.. -Goes to the previous directory.
+./ -This executes files. Ex: ./install.sh 
 ```
 These should be enough to where you can navigate the system and follow along with this guide. I included it for those who may need the extra help navigating.
 
@@ -57,20 +57,20 @@ I have plans on testing other operating systems for functionality. The scripts s
 To install and run the scripts, first you must install git and clone the repo.
 
 ```
-$ sudo apt-get install git
-$ git clone https://github.com/LordZeuss/raspi-docker
+sudo apt-get install git
+git clone https://github.com/LordZeuss/raspi-docker
 ```
 Then, navigate to the folder where the scripts are downloaded.
 
 ```
-$ cd raspi-docker
+cd raspi-docker
 ```
 
 ## Docker Installation
 To install docker, run the docker-install.sh script.
 
 ```
-$ ./docker-install.sh
+./docker-install.sh
 ```
 
 ## Mullvad Installation
@@ -78,7 +78,7 @@ Mullvad is my go-to VPN to use. This script will install wireguard, and the offi
 To run the script:
 
 ```
-$ ./mullvad.sh
+./mullvad.sh
 ```
 
 ## Conclusion
