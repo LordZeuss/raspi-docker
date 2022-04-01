@@ -14,7 +14,8 @@ ___  ____ _  _ ____    _ _  _ ____ ___ ____ _    _    ____ ____
 #Functions List
 
 noanswer () { echo "Skipping..." ; }
-wireguard () { yes | sudo apt-get update && sudo apt-get install curl jq openresolv wireguard; }
+update () { yes | sudo apt-get update; }
+wireguard () { yes | sudo apt-get install curl jq openresolv wireguard; }
 config () { yes | curl -LO https://mullvad.net/media/files/mullvad-wg.sh && chmod +x ./mullvad-wg.sh && ./mullvad-wg.sh; }
 
 ######################################################################
@@ -28,10 +29,14 @@ echo "y=yes | n=no | e=exit-installer"
 read yesorno
 
 if [ "$yesorno" = y ]; then
+	update
 	wireguard
+	echo " "
 	echo "Installation Successful."
+	echo " "
 elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
+	echo " "
 elif [ "$yesorno" = e ]; then
 	echo "Goodbye!"
 	exit 1
@@ -50,9 +55,12 @@ read yesorno
 if [ "$yesorno" = y ]; then
 	yes | sudo apt-get install jq
 	config
+	echo " "
 	echo "Setup Successful."
+	echo " "
 elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
+	echo " "
 elif [ "$yesorno" = e ]; then
 	echo "Goodbye!"
 	exit 1
