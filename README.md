@@ -42,6 +42,17 @@ These should be enough to where you can navigate the system and follow along wit
 
 These scripts require you to have installed Raspbian, or any other debian based distro on your machine.
 
+### What systems can this run on?
+I have tested on the following systems, and confirmed that its functional:
+* Ubuntu
+* Debian
+* Raspian
+
+I have plans on testing other operating systems for functionality. Systems that it should work on, but haven't been officially tested:
+* DietPi
+* Linux Mint
+* Pop!_OS
+
 ## Installation
 To install and run the scripts, first you must install git and clone the repo.
 
