@@ -32,9 +32,12 @@ read yesorno
 if [ "$yesorno" = y ]; then
 	update
 	upgrade
+	echo " "
 	echo "Update Successful."
+	echo " "
 elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
+	echo " "
 else
 	echo "Not a valid answer. Exiting..."
 	exit 1
@@ -54,9 +57,12 @@ if [ "$yesorno" = y ]; then
 	yes | sudo apt-get install docker.io
 	sudo systemctl start docker
 	sudo systemctl enable docker
+	echo " "
 	echo "Installation Successful."
+	echo " "
 elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
+	echo " "
 else
 	echo "Not a valid answer. Exiting..."
 	exit 1
@@ -75,9 +81,12 @@ if [ "$yesorno" = y ]; then
 	sudo groupadd docker
 	sudo gpasswd -a ${USER} docker
 	su - $USER
+	echo " "
 	echo "Installation Successful."
+	echo " "
 elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
+	echo " "
 else
 	echo "Not a valid answer. Exiting..."
 	exit 1
