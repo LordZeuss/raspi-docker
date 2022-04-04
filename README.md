@@ -11,7 +11,7 @@ Github link to that page:
 ```
 https://github.com/LordZeuss/docker-gui
 ```
-
+Below is a video of how simple and quick the install process is:
 
 
 
@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/87180353/161514419-3f063011-3d31-4882-
 
 
 
-
+We used Ubuntu for the demo, however more platforms are available to use and are listed below.
 
 ## Table of Contents
 * [General Info](#general-info)
