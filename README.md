@@ -38,9 +38,9 @@ If you want to install some containers to get started, I have a repo for that!
 The script in the repo below will let you select if you want to install Portainer, Sonarr, Radarr, Jackett and Qbittorrent into the docker-compose.yml file in the location that is setup in this script.
 
 Heres the link to that repo:
-```
+
 https://github.com/LordZeuss/arr-installer
-```
+
 
 ## Basic Commands
 Here are some commands for those who don't know how to navigate around the terminal.
