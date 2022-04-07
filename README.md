@@ -8,9 +8,9 @@ The goal of this project is to help users who just bought some hardware, and are
 If you would like to use a GUI (Graphical User Interface) instead of yes/no questions in terminal, I have created a GUI version of the scripts.
 
 Github link to that page:
-```
+
 https://github.com/LordZeuss/docker-gui
-```
+
 Below is a video of how simple and quick the install process is:
 
 
