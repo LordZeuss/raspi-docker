@@ -29,6 +29,7 @@ We used Ubuntu for the demo, however more platforms are available to use and are
 * [Installation](#installation)
 * [Docker Installation](#docker-installation)
 * [Mullvad Installation](#mullvad-installation)
+* [Essential Containers](#essential-containers)
 * [Conclusion](#conclusion)
 * [Donations](#donations)
 
@@ -96,6 +97,18 @@ To run the script:
 
 ```
 ./mullvad.sh
+```
+
+## Essential Containers
+I have included useful, or "essential" containers to help you get started. Run the essentials.sh script to add what you want.
+
+### Included Containers
+* Portainer   -Container manager for docker (ESSENTIAL)
+* Pi-hole     -DNS sinkhole; ad & telemetry blocker
+
+To run the script:
+```
+./essentials.sh
 ```
 
 ## Conclusion
