@@ -17,6 +17,8 @@ noanswer () { echo "Skipping..." ; }
 update () { yes | sudo apt-get update; }
 wireguard () { yes | sudo apt-get install curl jq openresolv wireguard; }
 config () { yes | curl -LO https://mullvad.net/media/files/mullvad-wg.sh && chmod +x ./mullvad-wg.sh && ./mullvad-wg.sh; }
+openresolv () { yes | sudo apt install openresolv; }
+
 
 ######################################################################
 
@@ -30,6 +32,7 @@ read yesorno
 
 if [ "$yesorno" = y ]; then
 	update
+	openresolv
 	wireguard
 	echo " "
 	echo "Installation Successful."
