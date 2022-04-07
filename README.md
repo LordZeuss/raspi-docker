@@ -99,6 +99,32 @@ To run the script:
 ./mullvad.sh
 ```
 
+### Turning the VPN On and Off
+Once you've added your Mullvad account, it will automatically grab the configuration files for the servers, so you can connect.
+
+To turn on Mullvad VPN using wireguard, you will need to find a server you want to connect to, then run the following commands.
+
+List of servers:
+```
+https://mullvad.net/en/servers/
+```
+To connect to a server:
+```
+wg-quick up mullvad-(SERVER)
+```
+Example of connecting to a Mullvad server in Zurich, Switzerland
+```
+wg-quick up mullvad-ch10
+```
+To turn off the VPN and disconnect from the Mullvad server, just replace up, with down.
+```
+wg-quick down mullvad-(SERVER)
+```
+Example on the same Switzerland server
+```
+wg-quick down mullvad-ch10
+```
+
 ## Essential Containers
 I have included useful, or "essential" containers to help you get started. Run the essentials.sh script to add what you want.
 
