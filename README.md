@@ -68,6 +68,9 @@ I have tested on the following systems, and confirmed that its functional:
 
 I have plans on testing other operating systems for functionality. The scripts should work on Debian based distros just fine, but haven't been officially tested:
 * DietPi
+* Synology DSM
+
+NOTE: If you try this on Synology, you will need to edit the scripts paths, because it will need to be on the volume of the drive you want to install docker on, which isn't an issue for normal Debian systems.
 
 If you have used this script on a OS that isn't listed above, please create an "issue" and list the name of the OS so I can add it to the list!
 
