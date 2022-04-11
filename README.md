@@ -5,6 +5,8 @@ This project is scripts that aim to to help setup docker and Mullvad VPN on a Ra
 
 The goal of this project is to help users who just bought some hardware, and are looking to get started and have no knowledge of where to start.
 
+I'm constantly working on updating, and improving the code, as well as making the script easier to use, and currently experimenting with adding customization features.
+
 If you would like to use a GUI (Graphical User Interface) instead of yes/no questions in terminal, I have created a GUI version of the scripts.
 
 Github link to that page:
