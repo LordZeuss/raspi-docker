@@ -26,7 +26,7 @@ ___  ____ _  _ ____    _ _  _ ____ ___ ____ _    _    ____ ____
 
 echo "Would you like to install Portainer (Required if not already insalled)? (y/n/e)"
 
-read yesorno
+read -n1 yesorno
 
 if [ "$yesorno" = y ]; then
 	echo "portainer:
@@ -60,7 +60,7 @@ fi
 
 echo "Would you like to install pi-hole (DNS ad and telemetry blocker)? (y/n/e)"
 
-read yesorno
+read -n1 yesorno
 
 if [ "$yesorno" = y ]; then
 	echo "pihole:
