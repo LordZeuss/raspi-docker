@@ -29,7 +29,7 @@ echo " "
 echo "y=yes | n=no | e=exit-installer."
 echo " "
 
-read yesorno
+read -n1 yesorno
 
 if [ "$yesorno" = y ]; then
 	update
@@ -53,7 +53,7 @@ fi
 
 echo "Would you like to install Docker (Required)? (y/n/e)"
 
-read yesorno
+read -n1 yesorno
 
 if [ "$yesorno" = y ]; then
 	yes | sudo apt-get install docker.io
@@ -77,7 +77,7 @@ fi
 
 echo "Would you like to install Docker Compose (Required)? (y/n/e)"
 
-read yesorno
+read -n1 yesorno
 
 if [ "$yesorno" = y ]; then
 	yes | sudo apt install docker-compose
