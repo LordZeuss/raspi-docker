@@ -30,7 +30,7 @@ echo "Would you like to install Wireguard (Required)? (y/n/e)"
 echo " "
 echo "y=yes | n=no | e=exit-installer"
 
-read yesorno
+read -n1 yesorno
 
 if [ "$yesorno" = y ]; then
 	update
@@ -55,7 +55,7 @@ fi
 
 echo "Would you like to install Mullvad (Required)? (y/n)"
 
-read yesorno
+read -n1 yesorno
 
 if [ "$yesorno" = y ]; then
 	yes | sudo apt-get install jq
