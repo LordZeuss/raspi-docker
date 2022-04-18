@@ -7,11 +7,7 @@ The goal of this project is to help users who just bought some hardware, and are
 
 I'm constantly working on updating, and improving the code, as well as making the script easier to use, and currently experimenting with adding customization features.
 
-If you would like to use a GUI (Graphical User Interface) instead of yes/no questions in terminal, I have created a GUI version of the scripts.
-
-Github link to that page:
-
-https://github.com/LordZeuss/docker-gui
+I have added a text file with information about the scripts, such as how to edit the scripts, as well as general help, with beginner level Linux commands.
 
 Below is a video of how simple and quick the install process is:
 
