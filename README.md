@@ -94,6 +94,7 @@ To install docker, run the docker-install.sh script.
 
 ## Mullvad Installation
 Mullvad is my go-to VPN to use. This script will install wireguard, and (or) the official Mullvad setup script.
+
 You can skip the mullvad script by selecting "n" when prompted if you use another VPN provider.
 
 To run the script:
