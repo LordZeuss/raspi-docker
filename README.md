@@ -102,6 +102,7 @@ To run the script:
 ```
 ./mullvad.sh
 ```
+Hint: when copy-pasting your Mullvad account remeber to remove spaces. 
 
 ### Turning the VPN On and Off
 Once you've added your Mullvad account, it will automatically grab the configuration files for the servers, so you can connect.
