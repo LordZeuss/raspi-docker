@@ -33,7 +33,8 @@ We used Ubuntu for the demo, however more platforms are available to use and are
 
 # Additional Containers
 If you want to install some containers to get started, I have a repo for that!
-The script in the repo below will let you select if you want to install Portainer, Sonarr, Radarr, Jackett and Qbittorrent into the docker-compose.yml file in the location that is setup in this script.
+The script(s) in the repo below will let you select if you want to install things like Portainer, Sonarr, Radarr, Jackett, qBittorrent and Plex or many more options into the docker-compose.yml file through the location that is created and setup by the scripts in this repo.
+I have added a LOT more useful and popular containers. If you're interested I listed the link below.
 
 Heres the link to that repo:
 
@@ -49,8 +50,9 @@ ls -lists files and folders in your current directory.
 cd -Stands for change directory. You would type cd then the name of the directory. Ex: cd Downloads
 cd.. -Goes to the previous directory.
 ./ -This executes files. Ex: ./install.sh 
+You can also autofill the name of a file/folder/directory with the tab key when typing in the name/location of that file/folder/directory. (I use it in the demonstration video)
 ```
-These should be enough to where you can navigate the system and follow along with this guide. I included it for those who may need the extra help navigating.
+These should be enough to where you can navigate the system and follow along with this guide. I included it for those who may need the extra help navigating around or are unfamiliar with Linux commands.
 
 ## Pre-Requirements
 
@@ -145,7 +147,7 @@ To run the script:
 ## Conclusion
 These scripts are designed to setup docker on a Raspberry Pi (Although it also works on Debian based systems that I've tested) and to setup Mullvad VPN.
 
-This is my first attempt at writing scripts and working with code, so there's probably a lot more I could do to improve it, but it works as far as I've tested.
+This is my first attempt at writing scripts and working with code, so for you coder's, the code might not be the prettiest but if it works it works!
 
 I wrote these scripts because I couldn't find anything simple when I first started. 
 
@@ -158,7 +160,7 @@ https://github.com/LordZeuss/arr-installer
 ```
 
 # Donations
-Feel free to use these scripts as much as you want, edit it as much as you need to, fork them into your own projects, have fun with it! That's the purpose for open source! I just ask that if you use my code in your own projects, that you credit me.
+Feel free to use these scripts as much as you want, edit it as much as you need to, fork them into your own projects, have fun with it! That's the purpose for open source! I just please ask that if you use my code in your own projects, that you credit me.
 
 You ABSOLUTELY do NOT need to donate. I'm just a university student trying to learn how to code and make programs. If you decide to donate and support me and this project, thank you! I appreciate your support!
 
