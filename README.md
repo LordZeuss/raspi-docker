@@ -147,6 +147,8 @@ To run the script:
 ## Conclusion
 These scripts are designed to setup docker on a Raspberry Pi (Although it also works on Debian based systems that I've tested) and to setup Mullvad VPN.
 
+If you notice something is wrong or could be done better, please submit an issue or a pull request! I want this to be efficient and useful. From code to instructions in the README. Thank you to those who have contributed to the project! I appreciate it!
+
 This is my first attempt at writing scripts and working with code, so for you coder's, the code might not be the prettiest but if it works it works!
 
 I wrote these scripts because I couldn't find anything simple when I first started. 
