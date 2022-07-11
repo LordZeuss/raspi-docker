@@ -43,6 +43,7 @@ if [ "$yesorno" = y ]; then
    - TZ=US/Eastern
   image: portainer/portainer-ce" >> /home/$USER/raspi-docker/docker-compose.yml		#replace /home/$USER/raspi-docker/docker-compose.yml with the location of your docker-compose.yml file
 echo " " >>/home/$USER/raspi-docker/docker-compose.yml #replace this location with the location docker-compose.yml if needed.
+echo " "
 echo "Successfully Added"
 elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
@@ -91,6 +92,7 @@ if [ "$yesorno" = y ]; then
       - CAP_CHOWN
     restart: unless-stopped" >> /home/$USER/raspi-docker/docker-compose.yml 		#replace /home/$USER/raspi-docker/docker-compose.yml with the location of your docker-compose.yml file
 echo " " >>/home/$USER/raspi-docker/docker-compose.yml #replace this location with the location docker-compose.yml if needed.
+echo " "
 echo "Successfully Added"
 elif [ "$yesorno" = n ]; then
 	echo "Skipping..."
