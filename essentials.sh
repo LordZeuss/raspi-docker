@@ -104,7 +104,8 @@ else
 	exit 1
 fi
 
-
+echo " "
+echo " "
 echo "Script Complete. Goodbye!"
 
 
