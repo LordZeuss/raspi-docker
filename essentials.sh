@@ -46,11 +46,14 @@ echo " " >>/home/$USER/raspi-docker/docker-compose.yml #replace this location wi
 echo " "
 echo "Successfully Added"
 elif [ "$yesorno" = n ]; then
+	echo " "
 	echo "Skipping..."
 elif [ "$yesorno" = e ]; then
+	echo " "
 	echo "Goodbye!"
 	exit 1
 else
+	echo " "
 	echo "Not a valid answer. Exiting..."
 	exit 1
 fi
@@ -95,14 +98,19 @@ echo " " >>/home/$USER/raspi-docker/docker-compose.yml #replace this location wi
 echo " "
 echo "Successfully Added"
 elif [ "$yesorno" = n ]; then
+	echo " "
 	echo "Skipping..."
 elif [ "$yesorno" = e ]; then
+	echo " "
 	echo "Goodbye!"
 	exit 1
 else
+	echo " "
 	echo "Not a valid answer. Exiting..."
 	exit 1
 fi
+
+
 
 echo " "
 echo " "
