@@ -38,9 +38,11 @@ if [ "$yesorno" = y ]; then
 	echo "Update Successful."
 	echo " "
 elif [ "$yesorno" = n ]; then
+	echo " "
 	echo "Skipping..."
 	echo " "
 else
+	echo " "
 	echo "Not a valid answer. Exiting..."
 	exit 1
 fi
@@ -64,9 +66,11 @@ if [ "$yesorno" = y ]; then
 	echo " "
 	mkdir /home/$USER/raspi-docker/downloads
 elif [ "$yesorno" = n ]; then
+	echo " "
 	echo "Skipping..."
 	echo " "
 else
+	echo " "
 	echo "Not a valid answer. Exiting..."
 	exit 1
 fi
@@ -88,9 +92,11 @@ if [ "$yesorno" = y ]; then
 	echo "Installation Successful."
 	echo " "
 elif [ "$yesorno" = n ]; then
+	echo " "
 	echo "Skipping..."
 	echo " "
 else
+	echo " "
 	echo "Not a valid answer. Exiting..."
 	exit 1
 fi
