@@ -40,9 +40,11 @@ if [ "$yesorno" = y ]; then
 	echo "Installation Successful."
 	echo " "
 elif [ "$yesorno" = n ]; then
+	echo " "
 	echo "Skipping..."
 	echo " "
 elif [ "$yesorno" = e ]; then
+	echo " "
 	echo "Goodbye!"
 	exit 1
 else
@@ -64,12 +66,15 @@ if [ "$yesorno" = y ]; then
 	echo "Setup Successful."
 	echo " "
 elif [ "$yesorno" = n ]; then
+	echo " "
 	echo "Skipping..."
 	echo " "
 elif [ "$yesorno" = e ]; then
+	echo " "
 	echo "Goodbye!"
 	exit 1
 else
+	echo " "
 	echo "Not a valid answer. Exiting..."
 fi
 
