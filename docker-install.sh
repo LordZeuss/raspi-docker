@@ -64,7 +64,6 @@ if [ "$yesorno" = y ]; then
 	echo " "
 	echo "Installation Successful."
 	echo " "
-	mkdir /home/$USER/raspi-docker/downloads
 elif [ "$yesorno" = n ]; then
 	echo " "
 	echo "Skipping..."
