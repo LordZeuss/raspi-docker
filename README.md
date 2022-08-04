@@ -78,7 +78,7 @@ If you have used this script on a OS that isn't listed above, please create an "
 To install and run the scripts, first you must install git and clone the repo.
 
 ```
-sudo apt-get install git
+sudo apt-get install git -y
 git clone https://github.com/LordZeuss/raspi-docker
 ```
 Then, navigate to the folder where the scripts are downloaded.
