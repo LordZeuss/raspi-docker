@@ -9,7 +9,7 @@ I'm constantly working on updating, and improving the code, as well as making th
 
 I have added a text file with information about the scripts, such as how to edit the scripts, as well as general help, with beginner level Linux commands.
 
-UPDATE 11/19/22: The script has been tested and verfied for functionality. Still fully functional.
+**UPDATE 11/19/22: The script has been tested and verfied for functionality. Still fully functional.
 
 Below is a video of how simple and quick the install process is:
 
