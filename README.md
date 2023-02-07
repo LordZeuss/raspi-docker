@@ -1,11 +1,9 @@
 # Raspi-Docker
 
 ## General Info
-This project is scripts that aim to to help setup docker and Mullvad VPN on a Raspberry Pi, or Debian based distros.
+This project is scripts that aim to to help setup docker and/or Mullvad VPN on a Raspberry Pi, or Debian based distros.
 
-The goal of this project is to help users who just bought some hardware, and are looking to get started and have no knowledge of where to start.
-
-I'm constantly working on updating, and improving the code, as well as making the script easier to use, and currently experimenting with adding customization features.
+The goal of this project is to help users who just bought some hardware, and are looking to get started and have no knowledge of where to start, or simply to automate the process if you set it up frequently.
 
 I have added a text file with information about the scripts, such as how to edit the scripts, as well as general help, with beginner level Linux commands.
 
