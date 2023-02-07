@@ -131,7 +131,7 @@ Example on the same Switzerland server
 ```
 wg-quick down mullvad-ch10
 ```
-If you would like to see your external IP, try running this command with the VPN off and on, to verify you are connected:
+If you would like to see your external IP, try running this command with the VPN both on and off, to verify you are connected:
 ```
 curl https://ipinfo.io/ip ; echo
 wget -qO- https://ipecho.net/plain ; echo
