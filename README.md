@@ -167,10 +167,6 @@ https://github.com/LordZeuss/arr-installer
 ```
 
 # Donations
-Feel free to use these scripts as much as you want, edit it as much as you need to, fork them into your own projects, have fun with it! That's the purpose for open source! I just please ask that if you use my code in your own projects, that you credit me.
-
-You ABSOLUTELY do NOT need to donate. I'm just a university student trying to learn how to code and make programs. If you decide to donate and support me and this project, thank you! I appreciate your support!
-
 If you are feeling kind enough to donate to me here is my bitcoin address. 
 
 ```
