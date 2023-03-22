@@ -24,7 +24,7 @@ ___  ____ _  _ ____    _ _  _ ____ ___ ____ _    _    ____ ____
 
 #Install Portainer
 
-echo "Would you like to install Portainer (Required if not already insalled)? (y/n/e)"
+echo "Would you like to install Portainer (HIGHLY RECOMMENDED)? (y/n/e)"
 
 read -n1 yesorno
 
@@ -58,42 +58,27 @@ else
 	exit 1
 fi
 
+#############################################################
 
-
-#Pi-hole DNS ad & telemetry blocking
-
-echo "Would you like to install pi-hole (DNS ad and telemetry blocker)? (y/n/e)"
+echo "Would you like to install Yacht (Alternative to Portainer)? (y/n/e)"
 
 read -n1 yesorno
 
 if [ "$yesorno" = y ]; then
-	echo "pihole:
-    container_name: pihole
-    image: pihole/pihole:latest
-    # network_mode: host
+  mkdir /home/$USER/raspi-docker &> /dev/null
+  mkdir /home/$USER/raspi-docker/yacht
+	echo "---
+version: "3"
+services:
+  yacht:
+    container_name: yacht
+    restart: unless-stopped
     ports:
-      - "53:53/tcp"
-      - "53:53/udp"
-      - "67:67/udp"
-      - "8089:80/tcp"
-      #- "443:443/tcp"
-    env_file:
-      - ./services/pihole/pihole.env
+      - 8000:8000
     volumes:
-       - ./volumes/pihole/etc-pihole/:/etc/pihole/
-       - ./volumes/pihole/etc-dnsmasq.d/:/etc/dnsmasq.d/
-    dns:
-      - 127.0.0.1
-      - 1.1.1.1
-    # Recommended but not required (DHCP needs NET_ADMIN)
-    #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
-    cap_add:
-      - NET_ADMIN
-      - CAP_NET_BIND_SERVICE
-      - CAP_NET_ADMIN
-      - CAP_NET_RAW
-      - CAP_CHOWN
-    restart: unless-stopped" >> /home/$USER/raspi-docker/docker-compose.yml 		#replace /home/$USER/raspi-docker/docker-compose.yml with the location of your docker-compose.yml file
+      - /home/$USER/raspi-docker/yacht:/config
+      - /var/run/docker.sock:/var/run/docker.sock
+    image: selfhostedpro/yacht" >> /home/$USER/raspi-docker/docker-compose.yml		#replace /home/$USER/raspi-docker/docker-compose.yml with the location of your docker-compose.yml file
 echo " " >>/home/$USER/raspi-docker/docker-compose.yml #replace this location with the location docker-compose.yml if needed.
 echo " "
 echo "Successfully Added"
